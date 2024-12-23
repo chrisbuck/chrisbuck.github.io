@@ -9,7 +9,7 @@
         "react-scripts": "5.0.1",
         "web-vitals": "^4.2.4"
     },
-    "homepage": "https://github.com/chrisbuck/chrisbuck.github.io.git",
+    "homepage": "https://chrisbuck.github.io/chrisbuck.github.io/",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
