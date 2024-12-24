@@ -1,42 +1,43 @@
 {
     "name": "github-pages",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "cra-template": "1.2.0",
-        "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "react-scripts": "5.0.1",
-        "web-vitals": "^4.2.4"
-    },
-    "homepage": "https://chrisbuck.github.io/chrisbuck.github.io/",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack serve --mode development --open --hot",
+        "build": "webpack --mode production",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chrisbuck/chrisbuck.github.io.git"
     },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chrisbuck/chrisbuck.github.io/issues"
+    },
+    "homepage": "https://chrisbuck.github.io/",
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
     },
     "devDependencies": {
-        "gh-pages": "^6.2.0"
+        "@babel/core": "^7.26.0",
+        "@babel/preset-env": "^7.26.0",
+        "@babel/preset-react": "^7.26.3",
+        "babel-loader": "^9.2.1",
+        "css-loader": "^7.1.2",
+        "gh-pages": "^6.2.0",
+        "html-webpack-plugin": "^5.6.3",
+        "node-sass": "^9.0.0",
+        "sass-loader": "^16.0.4",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0"
     }
 }
