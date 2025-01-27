@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.972814a6.css",
-    "main.js": "/static/js/main.3e4ff7ad.js",
+    "main.css": "/static/css/main.b94cf34b.css",
+    "main.js": "/static/js/main.27d99514.js",
     "static/js/488.253b8d2d.chunk.js": "/static/js/488.253b8d2d.chunk.js",
+    "static/media/yelling.png": "/static/media/yelling.1270d9b0a969013c58fb.png",
+    "static/media/headlines.png": "/static/media/headlines.7943bb5c478bdc12b800.png",
+    "static/media/Chart1-Scatter.png": "/static/media/Chart1-Scatter.3044dc01055e27dab4a2.png",
+    "static/media/Chart1B-StateBias.png": "/static/media/Chart1B-StateBias.2071a95b86df34f9f08d.png",
+    "static/media/Chart4-AbsBarGallup-Poly.png": "/static/media/Chart4-AbsBarGallup-Poly.7ee32d48dffc531ff429.png",
+    "static/media/Chart4-AbsBarGallup-Linear.png": "/static/media/Chart4-AbsBarGallup-Linear.a9cfedf77e3a3cc318c2.png",
+    "static/media/Chart2-BarGallup.png": "/static/media/Chart2-BarGallup.6127640b462ce8241354.png",
+    "static/media/Chart3-AvgBarGallup.png": "/static/media/Chart3-AvgBarGallup.ebb7ee90d74fe4210538.png",
     "index.html": "/index.html",
-    "main.972814a6.css.map": "/static/css/main.972814a6.css.map",
-    "main.3e4ff7ad.js.map": "/static/js/main.3e4ff7ad.js.map",
+    "main.b94cf34b.css.map": "/static/css/main.b94cf34b.css.map",
+    "main.27d99514.js.map": "/static/js/main.27d99514.js.map",
     "488.253b8d2d.chunk.js.map": "/static/js/488.253b8d2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.972814a6.css",
-    "static/js/main.3e4ff7ad.js"
+    "static/css/main.b94cf34b.css",
+    "static/js/main.27d99514.js"
   ]
 }
