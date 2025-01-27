@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
+import { Helmet } from "react-helmet";
 
 import pageStyles from "../../../Page.module.scss";
 import styles from "./final-project.module.scss";
@@ -18,6 +19,19 @@ import Heading from "@components/Heading";
 const Page = () => {
     return (
         <div>
+            <Helmet>
+                <title>Is Political Polling Broken?</title>
+                <meta
+                    property="og:description"
+                    content={"An Analysis in 5 Charts. By Chris Buck, Brown MTL program."}
+                />
+                <meta property="og:image" content={imageChart1} />
+                <meta
+                    property="og:url"
+                    content={"https://chrisbuck.github.io/#/brown/visual-storytelling/final-project"}
+                />
+                <meta property="og:type" content="article" />
+            </Helmet>
             <Section bgColor="white" color="charcoal">
                 <div className="titleWrap">
                     <Heading h="h1" color="maroon">
