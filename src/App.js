@@ -1,29 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-import TopNav from '@components/TopNav';
+import React from "react";
+import "./App.scss";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+
+import TopNav from "@components/TopNav";
+import Home from "@pages/home/index";
+import { generateRoutes } from "./utils/generateRoutes";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <dev>
-        <TopNav />
-      </dev>
-    </div>
-  );
+    const routes = generateRoutes();
+    return (
+        <div className="App">
+            <TopNav />
+            <Router basename={process.env.PUBLIC_URL}>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    {routes.map(({ path, Component }) => (
+                        <Route key={path} path={path} element={<Component />} />
+                    ))}
+                </Routes>
+                {/* <Routes>
+                    
+                    <Route path="/brown/visual-storytelling/final-project" element={<Styles />} />
+                    <Route path="/styles" element={<Styles />} />
+                </Routes> */}
+            </Router>
+        </div>
+    );
 }
 
 export default App;

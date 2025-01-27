@@ -1,0 +1,11 @@
+@import "@styles/colors";
+
+// Outer wrapper
+.navbar {
+    background-color: $topNavBg !important;
+    color: $white !important;
+}
+
+.navbarBrand {
+    color: $white !important;
+}

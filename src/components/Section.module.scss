@@ -1,0 +1,12 @@
+@import "@styles/colors";
+@import "@styles/breakpoints";
+
+.section {
+    min-height: 100px !important;
+    padding: 10px 20px;
+    width: 100%;
+
+    @media screen and (min-width: $small) {
+        padding: 20px 40px;
+    }
+}

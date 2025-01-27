@@ -1,0 +1,162 @@
+@import "@styles/colors";
+
+.neonText {
+    font-family: "Tilt Neon", sans-serif;
+    overflow: hidden;;
+    padding-left: 35px;
+    position: relative;
+
+    .text {
+        span {
+            left: 0;
+            padding-left: 45px;
+            position: absolute;
+        }
+    }
+
+    .reflect {
+        display: inline-block;
+        margin-left: 10px;
+        padding-bottom: 45px;
+        rotate: 180deg;
+        transform: perspective(50px) rotateX(-8deg) rotateY(180deg) scaleY(0.7);
+            transform-origin: 50% 50px;
+
+        .reflectTextBg {
+            color: transparent;
+            opacity: 0.7;
+        }
+
+        .reflectFg {
+            background: linear-gradient(0deg, transparent, rgba(22, 6, 78, 0.47), $neonBgDark);
+            height: 12px;
+            left: 0;
+            margin-top: 35px;
+            position: absolute;
+            top: 34px;
+            transform: perspective(50px) rotateX(-20deg) scaleY(1.3);
+            transform-origin: 50% 50px;
+            width: 100%;
+        }
+    }
+}
+
+.neonBlue {
+    .text {
+        .neonTextBg {
+            color: $neonBlueShadow;
+        }
+
+        .neonTextFg {
+            color: $neonBlue;
+            text-shadow: 0 0 20px $neonBlueShadow;
+        }
+    }
+
+    .reflect {
+        .reflectTextBg {
+            color: transparent;
+            text-shadow: 0 0 7px $neonBlueShadow;
+        }
+    }
+}
+
+.neonGreen {
+    .text {
+        .neonTextBg {
+            color: $neonGreenShadow;
+        }
+
+        .neonTextFg {
+            color: $neonGreen;
+            text-shadow: 0 0 20px $neonGreenShadow;
+        }
+    }
+
+    .reflect {
+        .reflectTextBg {
+            color: transparent;
+            text-shadow: 0 0 7px $neonGreenShadow;
+        }
+    }
+}
+
+.neonOrange {
+    .text {
+        .neonTextBg {
+            color: $neonOrangeShadow;
+        }
+
+        .neonTextFg {
+            color: $neonOrange;
+            text-shadow: 0 0 20px $neonOrangeShadow;
+        }
+    }
+
+    .reflect {
+        .reflectTextBg {
+            color: transparent;
+            text-shadow: 0 0 7px $neonOrangeShadow;
+        }
+    }
+}
+
+.neonPink {
+    .text {
+        .neonTextBg {
+            color: $neonPinkShadow;
+        }
+
+        .neonTextFg {
+            color: $neonPink;
+            text-shadow: 0 0 20px $neonPinkShadow;
+        }
+    }
+
+    .reflect {
+        .reflectTextBg {
+            color: transparent;
+            text-shadow: 0 0 7px $neonPinkShadow;
+        }
+    }
+}
+
+.neonPurple {
+    .text {
+        .neonTextBg {
+            color: $neonPurpleShadow;
+        }
+
+        .neonTextFg {
+            color: $neonOrange;
+            text-shadow: 0 0 20px $neonPurpleShadow;
+        }
+    }
+
+    .reflect {
+        .reflectTextBg {
+            color: transparent;
+            text-shadow: 0 0 7px $neonPurpleShadow;
+        }
+    }
+}
+
+.neonYellow {
+    .text {
+        .neonTextBg {
+            color: $neonYellowShadow;
+        }
+
+        .neonTextFg {
+            color: $neonYellow;
+            text-shadow: 0 0 20px $neonYellowShadow;
+        }
+    }
+
+    .reflect {
+        .reflectTextBg {
+            color: transparent;
+            text-shadow: 0 0 7px $neonYellowShadow;
+        }
+    }
+}

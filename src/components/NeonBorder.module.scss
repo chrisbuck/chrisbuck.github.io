@@ -1,0 +1,50 @@
+@import "@styles/colors";
+
+.neonBorder {
+    padding: 20px;
+
+    .neonBorderInner {
+        border: 5px solid;
+        border-radius: 10px;
+
+        .neonBorderContent {
+            padding: 20px;
+        }
+    }
+}
+
+.neonBlue {
+    border-color: $neonBlue;
+    box-shadow: 0 0 20px $neonBlueShadow,
+    inset 0 0 20px $neonBlueShadow;
+}
+
+.neonGreen {
+    border-color: $neonGreen;
+    box-shadow: 0 0 20px $neonGreenShadow,
+    inset 0 0 20px $neonGreenShadow;
+}
+
+.neonOrange {
+    border-color: $neonOrange;
+    box-shadow: 0 0 20px $neonOrangeShadow,
+    inset 0 0 20px $neonOrangeShadow;
+}
+
+.neonPink {
+    border-color: $neonPink;
+    box-shadow: 0 0 20px $neonPinkShadow,
+    inset 0 0 20px $neonPinkShadow;
+}
+
+.neonPurple {
+    border-color: $neonPurple;
+    box-shadow: 0 0 20px $neonPurpleShadow,
+    inset 0 0 20px $neonPurpleShadow;
+}
+
+.neonYellow {
+    border-color: $neonYellow;
+    box-shadow: 0 0 20px $neonYellowShadow,
+    inset 0 0 20px $neonYellowShadow;
+}
