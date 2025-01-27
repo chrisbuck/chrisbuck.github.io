@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b94cf34b.css",
-    "main.js": "/static/js/main.237e62a1.js",
+    "main.css": "/static/css/main.59a1bd17.css",
+    "main.js": "/static/js/main.71a9a906.js",
     "static/js/488.253b8d2d.chunk.js": "/static/js/488.253b8d2d.chunk.js",
     "static/media/yelling.png": "/static/media/yelling.1270d9b0a969013c58fb.png",
     "static/media/headlines.png": "/static/media/headlines.7943bb5c478bdc12b800.png",
@@ -12,12 +12,12 @@
     "static/media/Chart2-BarGallup.png": "/static/media/Chart2-BarGallup.6127640b462ce8241354.png",
     "static/media/Chart3-AvgBarGallup.png": "/static/media/Chart3-AvgBarGallup.ebb7ee90d74fe4210538.png",
     "index.html": "/index.html",
-    "main.b94cf34b.css.map": "/static/css/main.b94cf34b.css.map",
-    "main.237e62a1.js.map": "/static/js/main.237e62a1.js.map",
+    "main.59a1bd17.css.map": "/static/css/main.59a1bd17.css.map",
+    "main.71a9a906.js.map": "/static/js/main.71a9a906.js.map",
     "488.253b8d2d.chunk.js.map": "/static/js/488.253b8d2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b94cf34b.css",
-    "static/js/main.237e62a1.js"
+    "static/css/main.59a1bd17.css",
+    "static/js/main.71a9a906.js"
   ]
 }
